@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <link rel="icon" type="image/png" href="images/mygoat.png">
+  <link rel="stylesheet" type="text/css" href="assignment3.css">
+
+<head>
+  <title>Charles Willis home</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="flighthours.html">Flight Logs</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h1>Assignment 1 Charles Willis</h1>
+      <p> I would like to be a pilot, which is hard to make a website for, this page so far is very barren as i mistakingly went to dalhousie, also alot of the stuff on this page is just placeholders, ie the sound should be a hover function for assignment 2 </p>
+      <img src="images\pilot.png" alt="placeholder until i get a pic like this" width="200" height="200">
+      <audio controls>
+        <source src="media/dumbsound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <H7>Job page i commonly check on for bush pilot jobs (needs CSS styling)</H7>
+    
+    <a href="https://pilotcareercenter.com/Search-Pilot-Job-Postings-Pilot-Openings-Pilot-Jobs-By-Region/2/Canada">PCC pilot job postings</a><br>
+
+    <section id="media">
+      <h2>videos of me flying once i make them</h2>
+      <p> more placeholders </p>
+      <video controls width="250">
+        <source src="media/fillvervid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/haXlHEsmF9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+    </section>
+ 
+
+    <section id="links">
+      <h2>Links Section</h2>
+      <a href="www.indprint.ca">Website I took inspiration from</a><br>
+      <a href="about.html">About Page</a><br>
+      <a href="flighthours.html">flight Logs</a>
+  </main>
+
+  <footer>
+    <p>I hate computer science</p>
+  </footer>
+</body>
+</html>
