@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log Flight Form</title>
+  <link rel="icon" type="image/png" href="images/mygoat.png">
+  <link rel="stylesheet" type="text/css" href="assignment3.css">
+  <script src="flightLog.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="flighthours.html">Flight Logs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Hours">
+      <h2>Flight Hours Entry</h2>
+      <form id="flightForm">
+        <div>
+          <label for="startAirport">Starting Airport</label>
+          <input type="text" id="startAirport" name="startAirport">
+        </div>
+        <div>
+          <label for="landingAirport">Landing Airport</label>
+          <input type="text" id="landingAirport" name="landingAirport">
+        </div>
+        <label for="hours">Flight Hours:</label>
+        <input type="number" id="hours" name="hours"><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br>
+        <section id="themeControls">
+          <button type="button" id="nightFlight">Night Flight</button>
+          <button type="button" id="dayFlight">Day Flight</button>
+        </section>
+        <input type="hidden" id="selectedTheme" name="selectedTheme" required>
+        <input type="submit" value="Submit">
+      </form>
+      <div id="colorChangeMark" style="display:none; width: 100%; max-width: 400px; margin-top: 20px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>This is just a skeleton as I have none, yet this could actually be very useful one day, also the day and night buttons would be used to specify if it was a day or night flight and would shade the cell accordingly as night flights have a special requireent for some jobs, but as databasing is like well above what were doing I havent added it so ill just add the buttons and make it just put a black or yellow box in the page to get marks</p>
+  </footer>
+</body>
+</html>
